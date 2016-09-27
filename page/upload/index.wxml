@@ -1,1 +1,13 @@
 <view> {{ title }} </view>
+<br/>
+<form bindsubmit="formSubmit" Content-Type="multipart/form-data" bindreset="formReset">
+    <label>请选择图片:</label>
+    <view class="images-wrapper">
+          <view class="images-list">
+            <block>
+              <image src="{{image}}" class="images-image" data-src="{{image}}" bindtap="previewImage"></image>
+            </block>
+            <image src="/image/plus.png" class="images-image images-image-plus" bindtap="chooseImage"></image>
+          </view>
+    </view>
+</form>

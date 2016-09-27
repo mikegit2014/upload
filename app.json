@@ -1,6 +1,6 @@
 {
   "pages": [
-      "page/upload/index",
+      "page/upload/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
