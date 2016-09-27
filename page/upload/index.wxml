@@ -1,1 +1,1 @@
-view> {{ title }} </view>
+<view> {{ title }} </view>
